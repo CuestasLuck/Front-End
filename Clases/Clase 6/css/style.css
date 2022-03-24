@@ -1,0 +1,53 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;1,300&display=swap');
+
+
+/*
+    selector {
+        propiedad : valor;
+    }
+
+    Etiqueta o elemento:
+    p {
+        color: red;
+    }
+
+    Clase
+    .titulo {
+        font-size: 40px;
+        font-style: normal;
+    }
+
+    ID 
+    #noticias {
+        text-align: center;
+    }
+
+    Si se quiere agrupar selectores usamos las coma ,
+
+*/
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+p {
+    color: red;
+} 
+
+.titulo {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#noticias {
+    text-align: center;
+}
+
+/*
+    trazo de fuente
+    font-weight: normal, bold, [numericos];
+    font-size: 20px;
+    font-style: italic, normal;
+
+*/
