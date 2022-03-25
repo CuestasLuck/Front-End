@@ -1,0 +1,39 @@
+/*
+    background (propiedad abreviada => shorthand)
+    backgrouns-color
+    background-size
+    background-image
+    background-position 
+*/
+
+.fondo{
+    background-image: url('../image/fondo.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 2px solid black;
+
+    height: 1000px;
+    width: 100%;
+}
+
+.logo {
+    background-image: url('../image/logo.png');
+    background-color: aqua;
+    border: 2px solid black;
+    background-repeat: repeat-x;
+    background-position: center;
+
+    height: 1000px;
+    width: 100%;
+}
+
+.fondo-compuesto {
+    background-image: url('../image/logo.png'), url('../image/fondo.png'); /*importante poner el logo primero para que se vea*/
+    background-position: center;
+    background-size: auto, cover;
+    background-repeat: no-repeat;
+    border: 2px solid black;
+    height: 1000px;
+    width: 100%;
+}
