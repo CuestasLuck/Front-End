@@ -1,0 +1,7 @@
+.flotante{
+    background-color: aquamarine;
+    position: fixed; /*absolute, relative(toma como punto de referencia dentro del codigo), sticky(se queda pegado cuando hacemos scroll)*/
+    bottom: 100px;
+    border-radius: 20px;
+    padding: 10px;
+}

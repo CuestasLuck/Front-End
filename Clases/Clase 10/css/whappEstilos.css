@@ -1,0 +1,56 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+}
+header{
+    background-color: grey;
+    padding: 2rem;
+}
+
+.fila{
+    display: flex;
+    flex-direction: row;
+    height: 500px;
+    border: 2px solid rgb(165, 164, 164);
+    justify-content: space-between;
+}
+
+.chats{
+    background-color: rgb(164, 248, 164);
+    width: 30%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.contacto{
+    padding: 15px;
+    border: 2px solid grey;
+    background-color: rgb(219, 219, 219);
+    border-radius: 10px;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+}
+.contacto img{
+    width: 20%;
+    border-radius: 50vh;
+    flex-grow: 1;
+}
+.contacto p{
+    flex-grow: 5;
+    padding: 5px;
+}
+
+.conversacion{
+    background-color: rgb(142, 230, 116);
+    width: 70%;
+    padding: 20px;
+    
+}

@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.encabezado{
+    background-color: black;
+    color: white;
+    text-align: left;   
+}
+
+.logo{
+    background-color: rgba(240, 168, 62, 1);
+    background-image: url(../images/logo.png);
+    background-repeat: no-repeat;
+    color: white;
+}
+
+.banner {
+    background-image: url(../images/fotoPrincipal.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    height: 410px;
+    font-size: 16px;
+}
+
+h2.bienvenida {
+    color: rgba(60, 35, 19, 1);
+    font-size: 30px;
+}
+
+h3.bienvenida{
+    color: white;
+    background-color: rgba(240, 168, 62, 1);
+    font-size: 16px;
+}
+
+.productos{
+    text-align: center;
+}
+
+h2.productos{
+    color: rgba(60, 35, 19, 1);
+    font-size: 40px;
+}
+
+p.productos{
+    color: rgba(102, 102, 102, 1);
+    font-size: 15px;
+}
+
+.articulos{
+    text-align: center;
+    color: rgb(60, 32, 19);
+}
+
+span{
+    color: rgba(240, 168, 62, 1);
+}
+
+.contacto{
+    text-align: center;
+    color: rgb(60, 32, 19);
+}
+
+h3.contacto{
+    text-align: left;
+    color: white;
+    background-color: #F0A83E;
+}
+
+.pie{
+    background-color: #3C2313;
+    color: white;
+
+}
+
+p.pie{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
