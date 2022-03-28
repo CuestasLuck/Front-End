@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+    /*box-sizing: border-box;*/
+    font-family: sans-serif;
+}
+
+main {
+    background-color: aquamarine;
+    height: 50%;
+    
+}
+
+.titulo {
+    text-align: center;
+    padding: 50px;
+    background-color: rgb(187, 184, 184);
+    width: 350px;
+    margin: 0 auto; /*si pongo border-bpx se buguea y se va para un costado*/
+    border: 3px solid black; /*dotted, dashed*/
+    border-radius: 20px;
+}
+
+img {
+    width: 150px;
+    display: block;
+    margin: 25px auto;
+    border-radius: 50vh; /*view por height es utilizado para que tome las medidas segun el dispositivo*/
+}
+
+.alerta{
+    background-color: rgb(80, 211, 80);
+    border-radius: 0 20px 20px 20px;
+    margin: 25px 40px;
+    padding: 20px;
+    box-shadow: black 1px 3px 10px 1px;
+}
+
+.parrafo{
+    margin: 20px;
+    background-color: chocolate;
+    width: 20%;
+}
+
+.padding {
+    border: solid black 2px;
+    padding: 20px;
+    text-align: center;
+}
+.border {
+    border: solid red 5px;
+    text-align: center;
+}
+.margin {
+    background-color: grey;
+    margin: 50px;
+    text-align: center;
+    border: solid black 2px;
+}

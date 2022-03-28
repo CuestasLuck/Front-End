@@ -1,0 +1,57 @@
+@import url("https://use.fontawesome.com/releases/v6.1.1/css/all.css");
+
+/*
+ *{
+    padding: 0;
+    margin: 0;
+}
+*/
+
+.body{
+    font-family: 'Times New Roman';
+}
+
+span {
+    font-weight: bold;
+    font-style: italic;
+}
+
+.cabecera {
+    background-image: url(../image/logo\ batman.png), url(../image/baticueva.png);
+    background-size: auto, cover;
+    background-repeat: no-repeat;
+    background-position: center, center top;
+
+
+    height: 188px;
+    width: 100%;
+}
+
+.espacio {
+    height: 110px;
+}
+
+.titulo, .subtitulo {
+    background-color: rgba(196, 196, 196, 1);
+    color: rgba(0, 86, 119, 1);
+    font-weight: 700;
+    font-weight: bold;
+}
+
+.titulo {
+    font-size: 35px;
+    text-align: center;
+}
+
+.subtitulo {
+    font-size: 20px;
+}
+
+.pie {
+    background-color: rgba(0, 86, 119, 1);
+    color: rgba(255, 255, 255, 1);
+    font-size: 20px;
+    font-weight: 700;
+    font-weight: bold;
+    text-align: center;
+}
